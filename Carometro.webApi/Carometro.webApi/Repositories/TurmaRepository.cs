@@ -1,4 +1,5 @@
-﻿using Carometro.webApi.Domains;
+﻿using Carometro.webApi.Contexts;
+using Carometro.webApi.Domains;
 using Carometro.webApi.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -9,19 +10,41 @@ namespace Carometro.webApi.Repositories
 {
     public class TurmaRepository : ITurmaRepository
     {
+        CarometroContext ctx = new CarometroContext();
+
         public void Atualizar(int id, Turma turmaAtualizada)
         {
-            throw new NotImplementedException();
+            Turma turmaBuscada = ctx.Turmas.Find(id);
+
+            if (turmaAtualizada.Nome != null)
+            {
+                turmaBuscada.Nome = turmaAtualizada.Nome;
+            }
+
+            if (turmaAtualizada.IdTurma != 0)
+            {
+                turmaBuscada.IdTurma = turmaAtualizada.IdTurma;
+            }
+
+            ctx.Turmas.Update(turmaAtualizada);
+
+            ctx.SaveChanges();
         }
 
         public void Cadastrar(Turma novaTurma)
         {
-            throw new NotImplementedException();
+            ctx.Turmas.Add(novaTurma);
+
+            ctx.SaveChanges();
         }
 
         public void Deletar(int id)
         {
-            throw new NotImplementedException();
+            Turma turmaBuscada = ctx.Turmas.Find(id);
+
+            ctx.Turmas.Remove(turmaBuscada);
+
+            ctx.SaveChanges();
         }
 
         public List<Turma> Listar()
