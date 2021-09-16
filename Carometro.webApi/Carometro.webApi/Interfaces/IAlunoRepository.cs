@@ -12,7 +12,7 @@ namespace Carometro.webApi.Interfaces
 
         void Deletar(int id);
 
-        void Atualizar(int id, Aluno AlunoAtualizado);
+        void Atualizar(int id, Aluno alunoAtualizado);
 
         List<Aluno> ListarTodos();
     }
