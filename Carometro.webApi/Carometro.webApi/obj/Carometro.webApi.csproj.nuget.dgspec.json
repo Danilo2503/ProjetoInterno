@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj": {}
+    "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj": {
+    "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
         "projectName": "Carometro.webApi",
-        "projectPath": "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
+        "projectPath": "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
         "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\obj\\",
+        "outputPath": "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",

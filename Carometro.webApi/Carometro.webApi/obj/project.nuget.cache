@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G+gZfQdoRhc1bKssfV/Xqm4CjtTZz2Ov5SttEt63jGo+6fRlNBvwfy3sctKcDLU3tsoPUb7GPN745uJRE+38lA==",
+  "dgSpecHash": "gS/CZgKt8TSm7OGWCR1hg9iMJiSpGQ3TCrLo73KytxXcqK7cYyIiHLJ6IdPe1w/gUlcvABxQsUefFRNjaCMQUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pedro\\source\\repos\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
+  "projectFilePath": "D:\\Desktop\\ProjetoInterno\\Carometro.webApi\\Carometro.webApi\\Carometro.webApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
